@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\REPOS\\Śmietnik\\WSB\\my_PNET_PR3_1_Z1\\my_PNET_PR3_1_Z1\\my_PNET_PR3_1_Z1.csproj": {}
+    "E:\\REPOS\\Śmietnik\\WSB\\PNET\\my_PNET_PR3_1\\my_PNET_PR3_1_Z1\\my_PNET_PR3_1_Z1\\my_PNET_PR3_1_Z1.csproj": {}
   },
   "projects": {
-    "E:\\REPOS\\Śmietnik\\WSB\\my_PNET_PR3_1_Z1\\my_PNET_PR3_1_Z1\\my_PNET_PR3_1_Z1.csproj": {
+    "E:\\REPOS\\Śmietnik\\WSB\\PNET\\my_PNET_PR3_1\\my_PNET_PR3_1_Z1\\my_PNET_PR3_1_Z1\\my_PNET_PR3_1_Z1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\REPOS\\Śmietnik\\WSB\\my_PNET_PR3_1_Z1\\my_PNET_PR3_1_Z1\\my_PNET_PR3_1_Z1.csproj",
+        "projectUniqueName": "E:\\REPOS\\Śmietnik\\WSB\\PNET\\my_PNET_PR3_1\\my_PNET_PR3_1_Z1\\my_PNET_PR3_1_Z1\\my_PNET_PR3_1_Z1.csproj",
         "projectName": "my_PNET_PR3_1_Z1",
-        "projectPath": "E:\\REPOS\\Śmietnik\\WSB\\my_PNET_PR3_1_Z1\\my_PNET_PR3_1_Z1\\my_PNET_PR3_1_Z1.csproj",
+        "projectPath": "E:\\REPOS\\Śmietnik\\WSB\\PNET\\my_PNET_PR3_1\\my_PNET_PR3_1_Z1\\my_PNET_PR3_1_Z1\\my_PNET_PR3_1_Z1.csproj",
         "packagesPath": "C:\\Users\\Bartek\\.nuget\\packages\\",
-        "outputPath": "E:\\REPOS\\Śmietnik\\WSB\\my_PNET_PR3_1_Z1\\my_PNET_PR3_1_Z1\\obj\\",
+        "outputPath": "E:\\REPOS\\Śmietnik\\WSB\\PNET\\my_PNET_PR3_1\\my_PNET_PR3_1_Z1\\my_PNET_PR3_1_Z1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bartek\\AppData\\Roaming\\NuGet\\NuGet.Config",

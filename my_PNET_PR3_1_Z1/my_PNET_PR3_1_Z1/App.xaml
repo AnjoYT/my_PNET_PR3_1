@@ -4,6 +4,46 @@
              xmlns:local="clr-namespace:my_PNET_PR3_1_Z1"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Color x:Key="Color1">#fffff346</Color>
+        <Color x:Key="Color2">#2FFFEE</Color>
+        <LinearGradientBrush
+            x:Key="Gradient"
+            EndPoint="0.75,0.75"
+            StartPoint="0,0"
+            >
+            <GradientStop Color="{DynamicResource Color1}" Offset="1"/>
+            <GradientStop Color="{DynamicResource Color2}"/>
+        </LinearGradientBrush>
+        <Style TargetType="{x:Type Label}">
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Background" Value="Aqua"/>
+        </Style>
+        <Style
+            x:Key="Block0"
+            TargetType="{x:Type Border}"
+            >
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Width" Value="95"/>
+            <Setter Property="BorderThickness" Value="5"/>
+            <Setter Property="Margin" Value="2"/>
+        </Style>
+        <Style
+            x:Key="Block1"
+            BasedOn="{StaticResource Block0}"
+            TargetType="{x:Type Border}"
+            >
+            <Setter Property="BorderBrush" Value="#696"/>
+            <Setter Property="Background" Value="#f75"/>
+        </Style>
+        <Style
+            x:Key="Block2"
+            BasedOn="{StaticResource Block0}"
+            TargetType="{x:Type Border}"
+            >
+            <Setter Property="BorderBrush" Value="#189"/>
+            <Setter Property="Background" Value="#F45"/>
+        </Style>
     </Application.Resources>
 </Application>

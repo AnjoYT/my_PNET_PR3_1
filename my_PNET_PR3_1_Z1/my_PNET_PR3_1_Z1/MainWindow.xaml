@@ -5,8 +5,67 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:my_PNET_PR3_1_Z1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+        Title="MainWindow" Height="600" Width="500" FontSize="24" ResizeMode="NoResize">
+    <Grid Background="{DynamicResource Gradient}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label>Stack</Label>
+        <ScrollViewer Grid.Row="1" Grid.RowSpan="3" VerticalScrollBarVisibility="Hidden">
+            <StackPanel>
+                <Border Style="{DynamicResource Block1}"/>
+                <Border Style="{DynamicResource Block2}"/>
+                <Border Style="{DynamicResource Block1}"/>
+                <Border Style="{DynamicResource Block2}"/>
+                <Border Style="{DynamicResource Block1}"/>
+                <Border Style="{DynamicResource Block2}"/>
+                <Border Style="{DynamicResource Block1}"/>
+                <Border Style="{DynamicResource Block2}"/>
+                <Border Style="{DynamicResource Block1}"/>
+                <Border Style="{DynamicResource Block2}"/>
+                <Border Style="{DynamicResource Block1}"/>
+                <Border Style="{DynamicResource Block2}"/>
+                <Border Style="{DynamicResource Block1}"/>
+                <Border Style="{DynamicResource Block2}"/>
+                <Border Style="{DynamicResource Block1}"/>
+                <Border Style="{DynamicResource Block2}"/>
+                <Border Style="{DynamicResource Block1}"/>
+                <Border Style="{DynamicResource Block2}"/>
+                <Border Style="{DynamicResource Block1}"/>
+                <Border Style="{DynamicResource Block2}"/>
+                <Border Style="{DynamicResource Block1}"/>
+                <Border Style="{DynamicResource Block2}"/>
+                <Border Style="{DynamicResource Block1}"/>
+                <Border Style="{DynamicResource Block2}"/>
+            </StackPanel>
+        </ScrollViewer>
+        <Label Grid.Column="1">Vertical Wrap</Label>
+        <WrapPanel Grid.Column="1" Grid.Row="1" Orientation="Vertical">
+            <Label Background="#F77" Height="50" Width="50" Margin="5">1</Label>
+            <Label Background="#FF7" Height="50" Width="50" Margin="5">2</Label>
+            <Label Background="#7F7" Height="50" Width="50" Margin="5">3</Label>
+            <Label Background="#7FF" Height="50" Width="50" Margin="5">4</Label>
+            <Label Background="#77F" Height="50" Width="50" Margin="5">5</Label>
+        </WrapPanel>
+        <Label Grid.Column="2">Horizontal Wrap</Label>
+        <WrapPanel Grid.Column="2" Grid.Row="1" Orientation="Horizontal">
+            <Label Background="#F77" Height="50" Width="50" Margin="5">1</Label>
+            <Label Background="#FF7" Height="50" Width="50" Margin="5">2</Label>
+            <Label Background="#7F7" Height="50" Width="50" Margin="5">3</Label>
+            <Label Background="#7FF" Height="50" Width="50" Margin="5">4</Label>
+            <Label Background="#77F" Height="50" Width="50" Margin="5">5</Label>
+        </WrapPanel>
+        <Label Grid.Column="1" Grid.Row="2">Text Block</Label>
+        <TextBlock Grid.Column="1" Grid.Row="3" TextWrapping="Wrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam finibus purus id nunc fringilla</TextBlock>
+        <Label Grid.Column="2" Grid.Row="2">Text Box</Label>
+        <TextBox Grid.Column="2" Grid.Row="3" TextWrapping="Wrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam finibus purus id nunc fringilla</TextBox>
     </Grid>
 </Window>
