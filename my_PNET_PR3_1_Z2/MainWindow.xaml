@@ -26,118 +26,159 @@
             <RowDefinition />
             <RowDefinition />
         </Grid.RowDefinitions>
-        <TextBlock Grid.ColumnSpan="5" Text="{Binding Value}" />
+        <TextBlock Grid.ColumnSpan="6" Text="{Binding Value}" />
         <Button
             Grid.Row="1"
+            Command="{Binding Number}"
+            CommandParameter="7"
             Content="7"
             Style="{DynamicResource Numbers}" />
         <Button
             Grid.Row="1"
             Grid.Column="1"
+            Command="{Binding Number}"
+            CommandParameter="8"
             Content="8"
             Style="{DynamicResource Numbers}" />
         <Button
             Grid.Row="1"
             Grid.Column="2"
+            Command="{Binding Number}"
+            CommandParameter="9"
             Content="9"
             Style="{DynamicResource Numbers}" />
         <Button
             Grid.Row="1"
             Grid.Column="3"
+            Command="{Binding DivideNumber}"
             Content="/"
             Style="{DynamicResource Function}" />
         <Button
             Grid.Row="1"
             Grid.Column="4"
+            Command="{Binding MultiplyNumber}"
             Content="*"
             Style="{DynamicResource Function}" />
         <Button
             Grid.Row="2"
+            Command="{Binding Number}"
+            CommandParameter="4"
             Content="4"
             Style="{DynamicResource Numbers}" />
         <Button
             Grid.Row="2"
             Grid.Column="1"
+            Command="{Binding Number}"
+            CommandParameter="5"
             Content="5"
             Style="{DynamicResource Numbers}" />
         <Button
             Grid.Row="2"
             Grid.Column="2"
+            Command="{Binding Number}"
+            CommandParameter="6"
             Content="6"
             Style="{DynamicResource Numbers}" />
         <Button
             Grid.Row="2"
             Grid.Column="3"
+            Command="{Binding SquareNumber}"
             Content="x²"
             Style="{DynamicResource Function}" />
         <Button
             Grid.Row="2"
             Grid.Column="4"
+            Command="{Binding ModuloNumber}"
             Content="%"
             Style="{DynamicResource Function}" />
         <Button
             Grid.Row="3"
+            Command="{Binding Number}"
+            CommandParameter="1"
             Content="1"
             Style="{DynamicResource Numbers}" />
         <Button
             Grid.Row="3"
             Grid.Column="1"
+            Command="{Binding Number}"
+            CommandParameter="2"
             Content="2"
             Style="{DynamicResource Numbers}" />
         <Button
             Grid.Row="3"
             Grid.Column="2"
+            Command="{Binding Number}"
+            CommandParameter="3"
             Content="3"
             Style="{DynamicResource Numbers}" />
         <Button
             Grid.Row="3"
             Grid.Column="3"
+            Command="{Binding FactorialNumber}"
             Content="!"
             Style="{DynamicResource Function}" />
         <Button
             Grid.Row="3"
             Grid.Column="4"
+            Command="{Binding SqRootNumber}"
             Content="√"
             Style="{DynamicResource Function}" />
         <Button
             Grid.Row="4"
+            Command="{Binding Number}"
+            CommandParameter="0"
             Content="0"
             Style="{DynamicResource Numbers}" />
         <Button
             Grid.Row="4"
             Grid.Column="1"
+            Command="{Binding SubtrNumber}"
             Content="-"
             Style="{DynamicResource Function}" />
         <Button
             Grid.Row="4"
             Grid.Column="2"
+            Command="{Binding AddNumber}"
             Content="+"
             Style="{DynamicResource Function}" />
         <Button
             Grid.Row="4"
             Grid.Column="3"
+            Command="{Binding LogNumber}"
             Content="log"
             Style="{DynamicResource Function}" />
         <Button
             Grid.Row="4"
             Grid.Column="4"
+            Command="{Binding RoundUpNumber}"
             Content="↑.00"
             Style="{DynamicResource Function}" />
         <Button
             Grid.Row="4"
             Grid.Column="5"
+            Command="{Binding RoundDownNumber}"
             Content="↓.00"
             Style="{DynamicResource Function}" />
         <Button
             Grid.Row="1"
-            Grid.RowSpan="2"
+            Grid.RowSpan="1"
             Grid.Column="5"
             Background="#00FFBF"
+            Command="{Binding SumNumber}"
             Content="=" />
+        <Button
+            Grid.Row="2"
+            Grid.Column="5"
+            Background="#FF5119"
+            Content="C"
+            Command="{Binding Clr}"
+            />
         <Button
             Grid.Row="3"
             Grid.Column="5"
-            Background="#FF5119"
-            Content="C" />
+            Style="{DynamicResource Function}"
+            Content=","
+            Command="{Binding Number}"
+            />
     </Grid>
 </Window>

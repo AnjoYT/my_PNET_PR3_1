@@ -1,4 +1,5 @@
-﻿using System;
+﻿using my_PNET_PR3_1_Z2.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,7 @@ namespace my_PNET_PR3_1_Z2
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new MainViewModel();
         }
     }
 }
