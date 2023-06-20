@@ -26,5 +26,6 @@ namespace my_PNET_PR3_1_Z2
             InitializeComponent();
             DataContext = new MainViewModel();
         }
+
     }
 }
