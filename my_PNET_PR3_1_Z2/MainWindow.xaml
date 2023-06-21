@@ -50,13 +50,15 @@
         <Button
             Grid.Row="1"
             Grid.Column="3"
-            Command="{Binding DivideNumberCommand}"
+            Command="{Binding BaseOperationCommand}"
+            CommandParameter="/"
             Content="/"
             Style="{DynamicResource Function}" />
         <Button
             Grid.Row="1"
             Grid.Column="4"
-            Command="{Binding MultiplyNumberCommand}"
+            Command="{Binding BaseOperationCommand}"
+            CommandParameter="*"
             Content="*"
             Style="{DynamicResource Function}" />
         <Button
@@ -132,13 +134,15 @@
         <Button
             Grid.Row="4"
             Grid.Column="1"
-            Command="{Binding SubtrNumberCommand}"
+            Command="{Binding BaseOperationCommand}"
+            CommandParameter="-"
             Content="-"
             Style="{DynamicResource Function}" />
         <Button
             Grid.Row="4"
             Grid.Column="2"
-            Command="{Binding AddNumberCommand}"
+            Command="{Binding BaseOperationCommand}"
+            CommandParameter="+"
             Content="+"
             Style="{DynamicResource Function}" />
         <Button

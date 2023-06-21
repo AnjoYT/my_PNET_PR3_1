@@ -14,18 +14,10 @@ namespace my_PNET_PR3_1_Z2.ViewModel
     public class MainViewModel : INotifyPropertyChanged
     {
         private string _value;
-        public string Value
-        {
-            get { return _value; }
-            set
-            {
-                _value = value;
-                OnPropertyChanged();
-            }
-        }
+        private bool _lastIsOperator;
 
         public ICommand NumberCommand { get; }
-        public ICommand DivideNumberCommand { get; }
+        public ICommand BaseOperationCommand { get; }
         public ICommand MultiplyNumberCommand { get; }
         public ICommand SquareNumberCommand { get; }
         public ICommand ModuloNumberCommand { get; }
@@ -46,36 +38,26 @@ namespace my_PNET_PR3_1_Z2.ViewModel
         public MainViewModel() 
         {
             NumberCommand = new NumbersCommand(this);
+            BaseOperationCommand = new BaseOperationCommand(this);
+
             Value = "0";
         }
 
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        private void OnPropertyChanged(
-            [CallerMemberName] string propertyName = null)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
-
+        
         public void Number(object parameter)
-        {
+        { if (Value == "0") { Value = ""; }
             Value += parameter.ToString();
+            LastIsOperator = false;
         }
 
-        public void AddNumber(object parameter)
+        public void BaseOperation(object parameter)
         {
 
-        }
-
-        public void DivideNumber(object parameter)
-        {
+            Value += parameter;
+            LastIsOperator = true;
 
         }
 
-        public void MultiplyNumber(object parameter)
-        {
-
-        }
         public void SquareNumber(object parameter)
         {
 
@@ -119,6 +101,33 @@ namespace my_PNET_PR3_1_Z2.ViewModel
         public void Comma(object parameter)
         {
 
+        }
+
+        public string Value
+        {
+            get { return _value; }
+            set
+            {
+                _value = value;
+                OnPropertyChanged();
+            }
+        }
+        public bool LastIsOperator
+        {
+            get { return _lastIsOperator; }
+            set
+            {
+                _lastIsOperator = value;
+                //OnPropertyChanged();
+            }
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        private void OnPropertyChanged(
+            [CallerMemberName] string propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }

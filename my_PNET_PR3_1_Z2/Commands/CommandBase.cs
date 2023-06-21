@@ -15,10 +15,9 @@ namespace my_PNET_PR3_1_Z2.Commands
         {
             return true;
         }
-
         public abstract void Execute(object? parameter);
 
-        protected void OnCanExecuteChanged() 
+        public void OnCanExecuteChanged() 
         {
             CanExecuteChanged?.Invoke(this,new EventArgs());
         }
