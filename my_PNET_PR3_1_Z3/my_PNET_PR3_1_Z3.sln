@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "my_PNET_PR3_1_Z3", "my_PNET_PR3_1_Z3.csproj", "{B2744A4A-A614-4B88-8FCA-6C638E20D25E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2744A4A-A614-4B88-8FCA-6C638E20D25E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2744A4A-A614-4B88-8FCA-6C638E20D25E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2744A4A-A614-4B88-8FCA-6C638E20D25E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2744A4A-A614-4B88-8FCA-6C638E20D25E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {346BC75F-61E0-4D37-AE51-CD437389CC1F}
+	EndGlobalSection
+EndGlobal
