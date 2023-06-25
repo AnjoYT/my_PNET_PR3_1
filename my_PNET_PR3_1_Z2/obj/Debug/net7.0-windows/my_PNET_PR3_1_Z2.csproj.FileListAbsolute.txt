@@ -20,3 +20,5 @@ E:\REPOS\Śmietnik\WSB\PNET\my_PNET_PR3_1\my_PNET_PR3_1_Z2\obj\Debug\net7.0-wind
 E:\REPOS\Śmietnik\WSB\PNET\my_PNET_PR3_1\my_PNET_PR3_1_Z2\obj\Debug\net7.0-windows\my_PNET_PR3_1_Z2.pdb
 E:\REPOS\Śmietnik\WSB\PNET\my_PNET_PR3_1\my_PNET_PR3_1_Z2\obj\Debug\net7.0-windows\my_PNET_PR3_1_Z2.genruntimeconfig.cache
 E:\REPOS\Śmietnik\WSB\PNET\my_PNET_PR3_1\my_PNET_PR3_1_Z2\obj\Debug\net7.0-windows\ref\my_PNET_PR3_1_Z2.dll
+E:\REPOS\Śmietnik\WSB\PNET\my_PNET_PR3_1\my_PNET_PR3_1_Z2\bin\Debug\net7.0-windows\MathParser.org-mXparser.dll
+E:\REPOS\Śmietnik\WSB\PNET\my_PNET_PR3_1\my_PNET_PR3_1_Z2\obj\Debug\net7.0-windows\my_PNET_PR3_1_Z2.csproj.CopyComplete

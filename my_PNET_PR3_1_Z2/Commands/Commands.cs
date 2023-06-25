@@ -10,23 +10,53 @@ namespace my_PNET_PR3_1_Z2.Commands
 {
     internal class NumbersCommand : CommandBase
     {
-        private MainViewModel viewModel;
-        public NumbersCommand(MainViewModel viewModel)
+        private Action<object> _operation;
+
+        public NumbersCommand(Action<object> operation)
         {
-            this.viewModel = viewModel;
+            _operation = operation;
         }
 
         public override void Execute(object? parameter)
         {
-            viewModel.Number(parameter);
+            _operation(parameter);
         }
 
     }
+
     internal class BaseOperationCommand : CommandBase
+    {
+        private Action<object> _operation;
+        private Predicate<object> _lastIsOperator;
+
+        public BaseOperationCommand(Action<object> operation)
+        {
+            _operation = operation;
+        }
+        public BaseOperationCommand(Action<object> operation, Predicate<object> lastIsOperator)
+        {
+            _operation = operation;
+            _lastIsOperator = lastIsOperator;
+        }
+        public override bool CanExecute(object? parameter)
+        {
+            return _lastIsOperator == null || _lastIsOperator(parameter);
+        }
+        public override void Execute(object? parameter)
+        {
+            _operation(parameter);
+        }
+    }
+}
+/*  
+   
+
+
+    internal class SumNumberCommand : CommandBase
     {
         private MainViewModel viewModel;
 
-        public BaseOperationCommand(MainViewModel viewModel)
+        public SumNumberCommand(MainViewModel viewModel)
         {
             this.viewModel = viewModel;
         }
@@ -37,7 +67,6 @@ namespace my_PNET_PR3_1_Z2.Commands
 
         public override void Execute(object? parameter)
         {
-            viewModel.BaseOperation(parameter);
+            viewModel.SumNumber(parameter);
         }
-    }
-}
+    }*/
