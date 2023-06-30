@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\REPOS\\Śmietnik\\WSB\\PNET\\my_PNET_PR3_1\\my_PNET_PR3_1_Z2\\my_PNET_PR3_1_Z2.csproj": {}
+    "D:\\Repos\\Test\\my_PNET_PR3_1\\my_PNET_PR3_1_Z2\\my_PNET_PR3_1_Z2.csproj": {}
   },
   "projects": {
-    "E:\\REPOS\\Śmietnik\\WSB\\PNET\\my_PNET_PR3_1\\my_PNET_PR3_1_Z2\\my_PNET_PR3_1_Z2.csproj": {
+    "D:\\Repos\\Test\\my_PNET_PR3_1\\my_PNET_PR3_1_Z2\\my_PNET_PR3_1_Z2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\REPOS\\Śmietnik\\WSB\\PNET\\my_PNET_PR3_1\\my_PNET_PR3_1_Z2\\my_PNET_PR3_1_Z2.csproj",
+        "projectUniqueName": "D:\\Repos\\Test\\my_PNET_PR3_1\\my_PNET_PR3_1_Z2\\my_PNET_PR3_1_Z2.csproj",
         "projectName": "my_PNET_PR3_1_Z2",
-        "projectPath": "E:\\REPOS\\Śmietnik\\WSB\\PNET\\my_PNET_PR3_1\\my_PNET_PR3_1_Z2\\my_PNET_PR3_1_Z2.csproj",
+        "projectPath": "D:\\Repos\\Test\\my_PNET_PR3_1\\my_PNET_PR3_1_Z2\\my_PNET_PR3_1_Z2.csproj",
         "packagesPath": "C:\\Users\\Bartek\\.nuget\\packages\\",
-        "outputPath": "E:\\REPOS\\Śmietnik\\WSB\\PNET\\my_PNET_PR3_1\\my_PNET_PR3_1_Z2\\obj\\",
+        "outputPath": "D:\\Repos\\Test\\my_PNET_PR3_1\\my_PNET_PR3_1_Z2\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\Bartek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

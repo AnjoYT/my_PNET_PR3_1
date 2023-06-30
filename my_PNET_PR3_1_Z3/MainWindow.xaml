@@ -15,6 +15,7 @@
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
         <ListBox
             Grid.ColumnSpan="3"
@@ -38,17 +39,28 @@
         </ListBox>
         <Button 
             Grid.Row="1"
+            Content="Import"
+            Click="Import"
+                />
+        <Button 
+            Grid.Row="1"
+            Grid.Column="2"
+            Content="Export"
+            Click="Export"
+                />
+        <Button 
+            Grid.Row="2"
             Content="Add"
             Click="Add"
                 />
         <Button 
-            Grid.Row="1" 
+            Grid.Row="2" 
             Grid.Column="1"
             Content="Edit"
             Click="Edit"
             />
         <Button 
-            Grid.Row="1" 
+            Grid.Row="3" 
             Grid.Column="2"
             Content="Delete"
             Click="Delete"

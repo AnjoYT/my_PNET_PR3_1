@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UAQZfNIRfnCLMCgYbbHl7wpKqyDjjrEP2hhZ/NMF20GrcX95EdLzqxpAG9Du2zj0hcjVjYEaNr3f5U6b5537SQ==",
+  "dgSpecHash": "p5kivWCfAqMmm+kXiOyJR4s31C3b07JnwlDv9QZg0PhwEugIH+MrmzeFu4F4Vp8NbHtegbQzg2eNGqnS4vZkxQ==",
   "success": true,
-  "projectFilePath": "E:\\REPOS\\Śmietnik\\WSB\\PNET\\my_PNET_PR3_1\\my_PNET_PR3_1_Z2\\my_PNET_PR3_1_Z2.csproj",
+  "projectFilePath": "D:\\Repos\\Test\\my_PNET_PR3_1\\my_PNET_PR3_1_Z2\\my_PNET_PR3_1_Z2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bartek\\.nuget\\packages\\mathparser.org-mxparser\\5.2.1\\mathparser.org-mxparser.5.2.1.nupkg.sha512"
   ],
